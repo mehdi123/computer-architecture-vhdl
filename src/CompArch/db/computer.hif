@@ -1,0 +1,782 @@
+Version 1.0 Build 32 04/04/2003 SJ Full Version
+19
+# entity
+adder
+# case_insensitive
+# source_file
+Adder.vhd
+1056525065
+4
+# storage
+db|computer(2).cnf
+db|computer(2).cnf
+# end
+# entity
+lpm_ram_dq
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_ram_dq.tdf
+1049307840
+6
+# storage
+db|computer(4).cnf
+db|computer(4).cnf
+# user_parameter {
+LPM_WIDTH
+D"16"
+USR
+LPM_WIDTHAD
+D"12"
+USR
+LPM_NUMWORDS
+D"0"
+USR
+LPM_INDATA
+S"REGISTERED"
+USR
+LPM_ADDRESS_CONTROL
+S"REGISTERED"
+USR
+LPM_OUTDATA
+S"REGISTERED"
+USR
+LPM_FILE
+NO_FILE
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+}
+# used_port {
+ADDRESS0
+ADDRESS10
+ADDRESS11
+ADDRESS1
+ADDRESS2
+ADDRESS3
+ADDRESS4
+ADDRESS5
+ADDRESS6
+ADDRESS7
+ADDRESS8
+ADDRESS9
+DATA0
+DATA10
+DATA11
+DATA12
+DATA13
+DATA14
+DATA15
+DATA1
+DATA2
+DATA3
+DATA4
+DATA5
+DATA6
+DATA7
+DATA8
+DATA9
+INCLOCK
+OUTCLOCK
+Q0
+Q10
+Q11
+Q12
+Q13
+Q14
+Q15
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+Q7
+Q8
+Q9
+WE
+}
+# include_file {
+D:|Programs|maxplus|libraries|megafunctions|altram.inc
+1037716298
+D:|Programs|maxplus|libraries|megafunctions|lpm_mux.inc
+1031402216
+D:|Programs|maxplus|libraries|megafunctions|lpm_decode.inc
+1031401284
+D:|Programs|maxplus|libraries|megafunctions|aglobal.inc
+1031390586
+}
+# end
+# entity
+counter
+# case_insensitive
+# source_file
+counter.vhd
+1057122671
+4
+# storage
+db|computer(5).cnf
+db|computer(5).cnf
+# user_parameter {
+n
+D"4"
+USR
+}
+# end
+# entity
+decoder38
+# case_insensitive
+# source_file
+decoder38.vhd
+1057152257
+4
+# storage
+db|computer(6).cnf
+db|computer(6).cnf
+# end
+# entity
+encoder
+# case_insensitive
+# source_file
+encoder.vhd
+1057152310
+4
+# storage
+db|computer(8).cnf
+db|computer(8).cnf
+# end
+# entity
+mux81
+# case_insensitive
+# source_file
+mux81.vhd
+1057152460
+4
+# storage
+db|computer(9).cnf
+db|computer(9).cnf
+# end
+# entity
+reg12
+# case_insensitive
+# source_file
+reg12.vhd
+1057150280
+4
+# storage
+db|computer(10).cnf
+db|computer(10).cnf
+# end
+# entity
+reg16
+# case_insensitive
+# source_file
+reg16.vhd
+1057150421
+4
+# storage
+db|computer(11).cnf
+db|computer(11).cnf
+# end
+# entity
+lpm_counter
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_counter.tdf
+1049307838
+6
+# storage
+db|computer(12).cnf
+db|computer(12).cnf
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+LPM_WIDTH
+16
+USR
+LPM_DIRECTION
+UP
+USR
+LPM_MODULUS
+0
+DEF
+LPM_AVALUE
+0
+DEF
+LPM_SVALUE
+0
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+NOT_GATE_PUSH_BACK
+ON
+USR
+CARRY_CNT_EN
+SMART
+DEF
+LABWIDE_SCLR
+ON
+DEF
+USE_NEW_VERSION
+TRUE
+DEF
+}
+# used_port {
+aclr
+clock
+cnt_en
+data0
+data10
+data11
+data12
+data13
+data14
+data15
+data1
+data2
+data3
+data4
+data5
+data6
+data7
+data8
+data9
+q0
+q10
+q11
+q12
+q13
+q14
+q15
+q1
+q2
+q3
+q4
+q5
+q6
+q7
+q8
+q9
+sload
+}
+# end
+# entity
+lpm_counter
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_counter.tdf
+1049307838
+6
+# storage
+db|computer(13).cnf
+db|computer(13).cnf
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+LPM_WIDTH
+4
+USR
+LPM_DIRECTION
+UP
+USR
+LPM_MODULUS
+0
+DEF
+LPM_AVALUE
+0
+DEF
+LPM_SVALUE
+0
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+NOT_GATE_PUSH_BACK
+ON
+USR
+CARRY_CNT_EN
+SMART
+DEF
+LABWIDE_SCLR
+ON
+DEF
+USE_NEW_VERSION
+TRUE
+DEF
+}
+# used_port {
+aclr
+clock
+q0
+q1
+q2
+q3
+}
+# end
+# entity
+lpm_counter
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_counter.tdf
+1049307838
+6
+# storage
+db|computer(14).cnf
+db|computer(14).cnf
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+LPM_WIDTH
+16
+USR
+LPM_DIRECTION
+UP
+USR
+LPM_MODULUS
+0
+DEF
+LPM_AVALUE
+0
+DEF
+LPM_SVALUE
+0
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+NOT_GATE_PUSH_BACK
+ON
+USR
+CARRY_CNT_EN
+SMART
+DEF
+LABWIDE_SCLR
+ON
+DEF
+USE_NEW_VERSION
+TRUE
+DEF
+}
+# used_port {
+clock
+cnt_en
+data0
+data10
+data11
+data12
+data13
+data14
+data15
+data1
+data2
+data3
+data4
+data5
+data6
+data7
+data8
+data9
+q0
+q10
+q11
+q12
+q13
+q14
+q15
+q1
+q2
+q3
+q4
+q5
+q6
+q7
+q8
+q9
+sload
+}
+# end
+# entity
+lpm_counter
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_counter.tdf
+1049307838
+6
+# storage
+db|computer(15).cnf
+db|computer(15).cnf
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+LPM_WIDTH
+12
+USR
+LPM_DIRECTION
+UP
+USR
+LPM_MODULUS
+0
+DEF
+LPM_AVALUE
+0
+DEF
+LPM_SVALUE
+0
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+NOT_GATE_PUSH_BACK
+ON
+USR
+CARRY_CNT_EN
+SMART
+DEF
+LABWIDE_SCLR
+ON
+DEF
+USE_NEW_VERSION
+TRUE
+DEF
+}
+# used_port {
+clock
+cnt_en
+data0
+data10
+data11
+data1
+data2
+data3
+data4
+data5
+data6
+data7
+data8
+data9
+q0
+q10
+q11
+q1
+q2
+q3
+q4
+q5
+q6
+q7
+q8
+q9
+sload
+}
+# end
+# entity
+lpm_add_sub
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_add_sub.tdf
+1049307836
+6
+# storage
+db|computer(16).cnf
+db|computer(16).cnf
+# user_parameter {
+LPM_WIDTH
+17
+USR
+LPM_REPRESENTATION
+UNSIGNED
+USR
+LPM_DIRECTION
+ADD
+USR
+ONE_INPUT_IS_CONSTANT
+NO
+USR
+LPM_PIPELINE
+0
+DEF
+MAXIMIZE_SPEED
+5
+DEF
+REGISTERED_AT_END
+0
+DEF
+OPTIMIZE_FOR_SPEED
+1
+USR
+USE_CS_BUFFERS
+1
+DEF
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+DEVICE_FAMILY
+FLEX10KE
+USR
+USE_WYS
+OFF
+DEF
+STYLE
+FAST
+USR
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+}
+# used_port {
+cin
+dataa0
+dataa10
+dataa11
+dataa12
+dataa13
+dataa14
+dataa15
+dataa16
+dataa1
+dataa2
+dataa3
+dataa4
+dataa5
+dataa6
+dataa7
+dataa8
+dataa9
+datab0
+datab10
+datab11
+datab12
+datab13
+datab14
+datab15
+datab16
+datab1
+datab2
+datab3
+datab4
+datab5
+datab6
+datab7
+datab8
+datab9
+result10
+result11
+result12
+result13
+result14
+result15
+result16
+result1
+result2
+result3
+result4
+result5
+result6
+result7
+result8
+result9
+}
+# end
+# entity
+ram
+# case_insensitive
+# source_file
+RAM.vhd
+1057242345
+4
+# storage
+db|computer(3).cnf
+db|computer(3).cnf
+# end
+# entity
+lpm_counter
+# case_insensitive
+# source_file
+D:|Programs|maxplus|libraries|megafunctions|lpm_counter.tdf
+1049307838
+6
+# storage
+db|computer(17).cnf
+db|computer(17).cnf
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+DEF
+IGNORE_CARRY_BUFFERS
+OFF
+DEF
+AUTO_CASCADE_CHAINS
+ON
+DEF
+IGNORE_CASCADE_BUFFERS
+OFF
+DEF
+LPM_WIDTH
+4
+USR
+LPM_DIRECTION
+UP
+USR
+LPM_MODULUS
+0
+DEF
+LPM_AVALUE
+0
+DEF
+LPM_SVALUE
+0
+DEF
+DEVICE_FAMILY
+FLEX10KE
+USR
+CARRY_CHAIN
+MANUAL
+USR
+CARRY_CHAIN_LENGTH
+32
+USR
+NOT_GATE_PUSH_BACK
+ON
+USR
+CARRY_CNT_EN
+SMART
+DEF
+LABWIDE_SCLR
+ON
+DEF
+USE_NEW_VERSION
+TRUE
+DEF
+}
+# used_port {
+clock
+q0
+q1
+q2
+q3
+}
+# end
+# entity
+decoder416
+# case_insensitive
+# source_file
+decoder416.vhd
+1057246441
+4
+# storage
+db|computer(7).cnf
+db|computer(7).cnf
+# end
+# entity
+alu
+# case_insensitive
+# source_file
+ALU.vhd
+1057254351
+4
+# storage
+db|computer(1).cnf
+db|computer(1).cnf
+# end
+# entity
+computer
+# case_insensitive
+# source_file
+computer.vhd
+1057254659
+4
+# storage
+db|computer(0).cnf
+db|computer(0).cnf
+# end
+# complete
+

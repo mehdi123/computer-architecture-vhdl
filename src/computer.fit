@@ -1,0 +1,87 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 10.2 07/10/2002            
+-- Compiled: 07/03/2003 22:22:03      
+
+-- Copyright (C) 1988-2002 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "computer"
+BEGIN
+
+    DEVICE = "EPF10K30ETC144-1";
+
+    "ac_ldo"                       : OUTPUT_PIN = 33     ;
+    "acout0"                       : OUTPUT_PIN = 62     ;
+    "acout1"                       : OUTPUT_PIN = 111    ;
+    "acout2"                       : OUTPUT_PIN = 13     ;
+    "acout3"                       : OUTPUT_PIN = 81     ;
+    "acout4"                       : OUTPUT_PIN = 122    ;
+    "acout5"                       : OUTPUT_PIN = 142    ;
+    "acout6"                       : OUTPUT_PIN = 44     ;
+    "acout7"                       : OUTPUT_PIN = 118    ;
+    "acout8"                       : OUTPUT_PIN = 98     ;
+    "acout9"                       : OUTPUT_PIN = 30     ;
+    "acout10"                      : OUTPUT_PIN = 83     ;
+    "acout11"                      : OUTPUT_PIN = 11     ;
+    "acout12"                      : OUTPUT_PIN = 48     ;
+    "acout13"                      : OUTPUT_PIN = 60     ;
+    "acout14"                      : OUTPUT_PIN = 128    ;
+    "acout15"                      : OUTPUT_PIN = 69     ;
+    "ar_ldo"                       : OUTPUT_PIN = 117    ;
+    "cnt_out0"                     : OUTPUT_PIN = 119    ;
+    "cnt_out1"                     : OUTPUT_PIN = 97     ;
+    "cnt_out2"                     : OUTPUT_PIN = 138    ;
+    "cnt_out3"                     : OUTPUT_PIN = 38     ;
+    "dr_ldo"                       : OUTPUT_PIN = 7      ;
+    "E"                            : OUTPUT_PIN = 49     ;
+    "ir_ldo"                       : OUTPUT_PIN = 27     ;
+    "outr0"                        : OUTPUT_PIN = 144    ;
+    "outr1"                        : OUTPUT_PIN = 143    ;
+    "outr2"                        : OUTPUT_PIN = 41     ;
+    "outr3"                        : OUTPUT_PIN = 14     ;
+    "outr4"                        : OUTPUT_PIN = 21     ;
+    "outr5"                        : OUTPUT_PIN = 72     ;
+    "outr6"                        : OUTPUT_PIN = 22     ;
+    "outr7"                        : OUTPUT_PIN = 47     ;
+    "pc_ldo"                       : OUTPUT_PIN = 88     ;
+    "tout0"                        : OUTPUT_PIN = 68     ;
+    "tout1"                        : OUTPUT_PIN = 89     ;
+    "tout2"                        : OUTPUT_PIN = 141    ;
+    "tout3"                        : OUTPUT_PIN = 113    ;
+    "tout4"                        : OUTPUT_PIN = 102    ;
+    "tout5"                        : OUTPUT_PIN = 96     ;
+    "tout6"                        : OUTPUT_PIN = 73     ;
+    "tout7"                        : OUTPUT_PIN = 23     ;
+    "tout8"                        : OUTPUT_PIN = 91     ;
+    "tout9"                        : OUTPUT_PIN = 87     ;
+    "tout10"                       : OUTPUT_PIN = 82     ;
+    "tout11"                       : OUTPUT_PIN = 20     ;
+    "tout12"                       : OUTPUT_PIN = 32     ;
+    "tout13"                       : OUTPUT_PIN = 10     ;
+    "tout14"                       : OUTPUT_PIN = 31     ;
+    "tout15"                       : OUTPUT_PIN = 110    ;
+    "tr_ldo"                       : OUTPUT_PIN = 39     ;
+
+END;
+
+INTERNAL_INFO "computer"
+BEGIN
+	DEVICE = EPF10K30ETC144-1;
+END;

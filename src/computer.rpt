@@ -1,0 +1,675 @@
+Project Information                                       e:\work\computer.rpt
+
+MAX+plus II Compiler Report File
+Version 10.2 07/10/2002
+Compiled: 07/03/2003 22:22:03
+
+Copyright (C) 1988-2002 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+computer  EPF10K30ETC144-1 0      51     0    0         0  %    0        0  %
+
+User Pins:                 0      51     0  
+
+
+
+Project Information                                       e:\work\computer.rpt
+
+** PROJECT COMPILATION MESSAGES **
+
+Warning: Ignored unnecessary INPUT pin 'inpr7'
+Warning: Ignored unnecessary INPUT pin 'inpr6'
+Warning: Ignored unnecessary INPUT pin 'inpr5'
+Warning: Ignored unnecessary INPUT pin 'inpr4'
+Warning: Ignored unnecessary INPUT pin 'inpr3'
+Warning: Ignored unnecessary INPUT pin 'inpr2'
+Warning: Ignored unnecessary INPUT pin 'inpr1'
+Warning: Ignored unnecessary INPUT pin 'inpr0'
+Warning: Ignored unnecessary INPUT pin 'clock'
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+***** Logic for device 'computer' compiled without errors.
+
+
+
+
+Device: EPF10K30ETC144-1
+
+FLEX 10K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+
+                                                                                         
+                                                                                         
+                        R   c R R R   R R R R                 R R c     R   R   R     R  
+                        E   n E E E   E E E E   a             E E n     E   E   E     E  
+                    a   S   t S S S   S S S S   c         V a S S t a a S   S   S a t S  
+                o o c t E   _ E E E V E E E E   o         C c E E _ c r E V E t E c o E  
+                u u o o R   o R R R C R R R R   u         C o R R o o _ R C R o R o u R  
+                t t u u V G u V V V C V V V V G t G G G G I u V V u u l V C V u V u t V  
+                r r t t E N t E E E I E E E E N 1 N N N N N t E E t t d E I E t E t 1 E  
+                0 1 5 2 D D 2 D D D O D D D D D 4 D D D D T 4 D D 0 7 o D O D 3 D 1 5 D  
+              --------------------------------------------------------------------------_ 
+             / 144 142 140 138 136 134 132 130 128 126 124 122 120 118 116 114 112 110   |_ 
+            /    143 141 139 137 135 133 131 129 127 125 123 121 119 117 115 113 111 109    | 
+      #TCK |  1                                                                         108 | ^DATA0 
+^CONF_DONE |  2                                                                         107 | ^DCLK 
+     ^nCEO |  3                                                                         106 | ^nCE 
+      #TDO |  4                                                                         105 | #TDI 
+     VCCIO |  5                                                                         104 | GND 
+    VCCINT |  6                                                                         103 | GND 
+    dr_ldo |  7                                                                         102 | tout4 
+  RESERVED |  8                                                                         101 | RESERVED 
+  RESERVED |  9                                                                         100 | RESERVED 
+    tout13 | 10                                                                          99 | RESERVED 
+   acout11 | 11                                                                          98 | acout8 
+  RESERVED | 12                                                                          97 | cnt_out1 
+    acout2 | 13                                                                          96 | tout5 
+     outr3 | 14                                                                          95 | RESERVED 
+       GND | 15                                                                          94 | VCCIO 
+       GND | 16                                                                          93 | VCCINT 
+  RESERVED | 17                                                                          92 | RESERVED 
+  RESERVED | 18                                                                          91 | tout8 
+  RESERVED | 19                            EPF10K30ETC144-1                              90 | RESERVED 
+    tout11 | 20                                                                          89 | tout1 
+     outr4 | 21                                                                          88 | pc_ldo 
+     outr6 | 22                                                                          87 | tout9 
+     tout7 | 23                                                                          86 | RESERVED 
+     VCCIO | 24                                                                          85 | GND 
+    VCCINT | 25                                                                          84 | GND 
+  RESERVED | 26                                                                          83 | acout10 
+    ir_ldo | 27                                                                          82 | tout10 
+  RESERVED | 28                                                                          81 | acout3 
+  RESERVED | 29                                                                          80 | RESERVED 
+    acout9 | 30                                                                          79 | RESERVED 
+    tout14 | 31                                                                          78 | RESERVED 
+    tout12 | 32                                                                          77 | ^MSEL0 
+    ac_ldo | 33                                                                          76 | ^MSEL1 
+      #TMS | 34                                                                          75 | VCCINT 
+  ^nSTATUS | 35                                                                          74 | ^nCONFIG 
+  RESERVED | 36                                                                          73 | tout6 
+           |      38  40  42  44  46  48  50  52  54  56  58  60  62  64  66  68  70  72  _| 
+            \   37  39  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69  71   | 
+             \--------------------------------------------------------------------------- 
+                R c t G o R R a V R o a E G R V V G G G G G R a V a R R R G R t a R V o  
+                E n r N u E E c C E u c   N E C C N N N N N E c C c E E E N E o c E C u  
+                S t _ D t S S o C S t o   D S C C D D D D D S o C o S S S D S u o S C t  
+                E _ l   r E E u I E r u     E I I           E u I u E E E   E t u E I r  
+                R o d   2 R R t O R 7 t     R N N           R t O t R R R   R 0 t R O 5  
+                V u o     V V 6   V   1     V T T           V 1   0 V V V   V   1 V      
+                E t       E E     E   2     E               E 3     E E E   E   5 E      
+                D 3       D D     D         D               D       D D D   D     D      
+                                                                                         
+                                                                                         
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs TMS and TDI should be tied to VCC and TCK should be tied to GND when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+$ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 0/6      (  0%)
+Total I/O pins used:                            51/96     ( 53%)
+Total logic cells used:                          0/1728   (  0%)
+Total embedded cells used:                       0/96     (  0%)
+Total EABs used:                                 0/6      (  0%)
+Average fan-in:                                 0.00/4    (  0%)
+Total fan-in:                                   0/6912    (  0%)
+
+Total input pins required:                       0
+Total input I/O cell registers required:         0
+Total output pins required:                     51
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                      0
+Total flipflops required:                        0
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         0/1728   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  13  14  15  16  17  18  EA  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  Total(LC/EC)
+ A:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ B:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ D:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ E:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ F:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+Total:   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+** INPUTS **
+
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+            None.
+
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  33      -     -    F    --     OUTPUT                 0    0    0    0  ac_ldo
+  62      -     -    -    12     OUTPUT                 0    0    0    0  acout0
+ 111      -     -    -    03     OUTPUT                 0    0    0    0  acout1
+  13      -     -    C    --     OUTPUT                 0    0    0    0  acout2
+  81      -     -    F    --     OUTPUT                 0    0    0    0  acout3
+ 122      -     -    -    18     OUTPUT                 0    0    0    0  acout4
+ 142      -     -    -    34     OUTPUT                 0    0    0    0  acout5
+  44      -     -    -    29     OUTPUT                 0    0    0    0  acout6
+ 118      -     -    -    09     OUTPUT                 0    0    0    0  acout7
+  98      -     -    B    --     OUTPUT                 0    0    0    0  acout8
+  30      -     -    F    --     OUTPUT                 0    0    0    0  acout9
+  83      -     -    E    --     OUTPUT                 0    0    0    0  acout10
+  11      -     -    C    --     OUTPUT                 0    0    0    0  acout11
+  48      -     -    -    24     OUTPUT                 0    0    0    0  acout12
+  60      -     -    -    15     OUTPUT                 0    0    0    0  acout13
+ 128      -     -    -    19     OUTPUT                 0    0    0    0  acout14
+  69      -     -    -    06     OUTPUT                 0    0    0    0  acout15
+ 117      -     -    -    08     OUTPUT                 0    0    0    0  ar_ldo
+ 119      -     -    -    13     OUTPUT                 0    0    0    0  cnt_out0
+  97      -     -    C    --     OUTPUT                 0    0    0    0  cnt_out1
+ 138      -     -    -    31     OUTPUT                 0    0    0    0  cnt_out2
+  38      -     -    -    34     OUTPUT                 0    0    0    0  cnt_out3
+   7      -     -    A    --     OUTPUT                 0    0    0    0  dr_ldo
+  49      -     -    -    21     OUTPUT                 0    0    0    0  E
+  27      -     -    E    --     OUTPUT                 0    0    0    0  ir_ldo
+ 144      -     -    -    36     OUTPUT                 0    0    0    0  outr0
+ 143      -     -    -    35     OUTPUT                 0    0    0    0  outr1
+  41      -     -    -    31     OUTPUT                 0    0    0    0  outr2
+  14      -     -    C    --     OUTPUT                 0    0    0    0  outr3
+  21      -     -    D    --     OUTPUT                 0    0    0    0  outr4
+  72      -     -    -    03     OUTPUT                 0    0    0    0  outr5
+  22      -     -    D    --     OUTPUT                 0    0    0    0  outr6
+  47      -     -    -    25     OUTPUT                 0    0    0    0  outr7
+  88      -     -    D    --     OUTPUT                 0    0    0    0  pc_ldo
+  68      -     -    -    07     OUTPUT                 0    0    0    0  tout0
+  89      -     -    D    --     OUTPUT                 0    0    0    0  tout1
+ 141      -     -    -    33     OUTPUT                 0    0    0    0  tout2
+ 113      -     -    -    05     OUTPUT                 0    0    0    0  tout3
+ 102      -     -    A    --     OUTPUT                 0    0    0    0  tout4
+  96      -     -    C    --     OUTPUT                 0    0    0    0  tout5
+  73      -     -    -    01     OUTPUT                 0    0    0    0  tout6
+  23      -     -    D    --     OUTPUT                 0    0    0    0  tout7
+  91      -     -    D    --     OUTPUT                 0    0    0    0  tout8
+  87      -     -    E    --     OUTPUT                 0    0    0    0  tout9
+  82      -     -    F    --     OUTPUT                 0    0    0    0  tout10
+  20      -     -    D    --     OUTPUT                 0    0    0    0  tout11
+  32      -     -    F    --     OUTPUT                 0    0    0    0  tout12
+  10      -     -    B    --     OUTPUT                 0    0    0    0  tout13
+  31      -     -    F    --     OUTPUT                 0    0    0    0  tout14
+ 110      -     -    -    02     OUTPUT                 0    0    0    0  tout15
+  39      -     -    -    33     OUTPUT                 0    0    0    0  tr_ldo
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+^ = Increased input delay
+* = PCI I/O is enabled
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      2/16( 12%)     0/16(  0%)
+B:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      2/16( 12%)     0/16(  0%)
+C:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      5/16( 31%)     0/16(  0%)
+D:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      7/16( 43%)     0/16(  0%)
+E:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      3/16( 18%)     0/16(  0%)
+F:       0/144(  0%)     0/ 72(  0%)     0/ 72(  0%)    0/16(  0%)      6/16( 37%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+02:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+03:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+05:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+06:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+07:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+08:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+09:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+13:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+25:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+26:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+27:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+28:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+29:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+30:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+31:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+32:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+33:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+34:      0/24(  0%)     0/4(  0%)      2/4( 50%)       0/4(  0%)
+35:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+36:      0/24(  0%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:                              e:\work\computer.rpt
+computer
+
+** EQUATIONS **
+
+
+-- Node name is 'ac_ldo' from file "computer.edf" line 492
+-- Equation name is 'ac_ldo', type is output 
+ac_ldo   =  GND;
+
+-- Node name is 'acout0' from file "computer.edf" line 484
+-- Equation name is 'acout0', type is output 
+acout0   =  GND;
+
+-- Node name is 'acout1' from file "computer.edf" line 484
+-- Equation name is 'acout1', type is output 
+acout1   =  GND;
+
+-- Node name is 'acout2' from file "computer.edf" line 484
+-- Equation name is 'acout2', type is output 
+acout2   =  GND;
+
+-- Node name is 'acout3' from file "computer.edf" line 484
+-- Equation name is 'acout3', type is output 
+acout3   =  GND;
+
+-- Node name is 'acout4' from file "computer.edf" line 484
+-- Equation name is 'acout4', type is output 
+acout4   =  GND;
+
+-- Node name is 'acout5' from file "computer.edf" line 484
+-- Equation name is 'acout5', type is output 
+acout5   =  GND;
+
+-- Node name is 'acout6' from file "computer.edf" line 484
+-- Equation name is 'acout6', type is output 
+acout6   =  GND;
+
+-- Node name is 'acout7' from file "computer.edf" line 484
+-- Equation name is 'acout7', type is output 
+acout7   =  GND;
+
+-- Node name is 'acout8' from file "computer.edf" line 484
+-- Equation name is 'acout8', type is output 
+acout8   =  GND;
+
+-- Node name is 'acout9' from file "computer.edf" line 484
+-- Equation name is 'acout9', type is output 
+acout9   =  GND;
+
+-- Node name is 'acout10' from file "computer.edf" line 484
+-- Equation name is 'acout10', type is output 
+acout10  =  GND;
+
+-- Node name is 'acout11' from file "computer.edf" line 484
+-- Equation name is 'acout11', type is output 
+acout11  =  GND;
+
+-- Node name is 'acout12' from file "computer.edf" line 484
+-- Equation name is 'acout12', type is output 
+acout12  =  GND;
+
+-- Node name is 'acout13' from file "computer.edf" line 484
+-- Equation name is 'acout13', type is output 
+acout13  =  GND;
+
+-- Node name is 'acout14' from file "computer.edf" line 484
+-- Equation name is 'acout14', type is output 
+acout14  =  GND;
+
+-- Node name is 'acout15' from file "computer.edf" line 484
+-- Equation name is 'acout15', type is output 
+acout15  =  GND;
+
+-- Node name is 'ar_ldo' from file "computer.edf" line 489
+-- Equation name is 'ar_ldo', type is output 
+ar_ldo   =  VCC;
+
+-- Node name is 'cnt_out0' from file "computer.edf" line 486
+-- Equation name is 'cnt_out0', type is output 
+cnt_out0 =  GND;
+
+-- Node name is 'cnt_out1' from file "computer.edf" line 486
+-- Equation name is 'cnt_out1', type is output 
+cnt_out1 =  GND;
+
+-- Node name is 'cnt_out2' from file "computer.edf" line 486
+-- Equation name is 'cnt_out2', type is output 
+cnt_out2 =  GND;
+
+-- Node name is 'cnt_out3' from file "computer.edf" line 486
+-- Equation name is 'cnt_out3', type is output 
+cnt_out3 =  GND;
+
+-- Node name is 'dr_ldo' from file "computer.edf" line 491
+-- Equation name is 'dr_ldo', type is output 
+dr_ldo   =  GND;
+
+-- Node name is 'E' from file "computer.edf" line 488
+-- Equation name is 'E', type is output 
+E        =  GND;
+
+-- Node name is 'ir_ldo' from file "computer.edf" line 494
+-- Equation name is 'ir_ldo', type is output 
+ir_ldo   =  GND;
+
+-- Node name is 'outr0' from file "computer.edf" line 483
+-- Equation name is 'outr0', type is output 
+outr0    =  GND;
+
+-- Node name is 'outr1' from file "computer.edf" line 483
+-- Equation name is 'outr1', type is output 
+outr1    =  GND;
+
+-- Node name is 'outr2' from file "computer.edf" line 483
+-- Equation name is 'outr2', type is output 
+outr2    =  GND;
+
+-- Node name is 'outr3' from file "computer.edf" line 483
+-- Equation name is 'outr3', type is output 
+outr3    =  GND;
+
+-- Node name is 'outr4' from file "computer.edf" line 483
+-- Equation name is 'outr4', type is output 
+outr4    =  GND;
+
+-- Node name is 'outr5' from file "computer.edf" line 483
+-- Equation name is 'outr5', type is output 
+outr5    =  GND;
+
+-- Node name is 'outr6' from file "computer.edf" line 483
+-- Equation name is 'outr6', type is output 
+outr6    =  GND;
+
+-- Node name is 'outr7' from file "computer.edf" line 483
+-- Equation name is 'outr7', type is output 
+outr7    =  GND;
+
+-- Node name is 'pc_ldo' from file "computer.edf" line 490
+-- Equation name is 'pc_ldo', type is output 
+pc_ldo   =  GND;
+
+-- Node name is 'tout0' from file "computer.edf" line 485
+-- Equation name is 'tout0', type is output 
+tout0    =  VCC;
+
+-- Node name is 'tout1' from file "computer.edf" line 485
+-- Equation name is 'tout1', type is output 
+tout1    =  GND;
+
+-- Node name is 'tout2' from file "computer.edf" line 485
+-- Equation name is 'tout2', type is output 
+tout2    =  GND;
+
+-- Node name is 'tout3' from file "computer.edf" line 485
+-- Equation name is 'tout3', type is output 
+tout3    =  GND;
+
+-- Node name is 'tout4' from file "computer.edf" line 485
+-- Equation name is 'tout4', type is output 
+tout4    =  GND;
+
+-- Node name is 'tout5' from file "computer.edf" line 485
+-- Equation name is 'tout5', type is output 
+tout5    =  GND;
+
+-- Node name is 'tout6' from file "computer.edf" line 485
+-- Equation name is 'tout6', type is output 
+tout6    =  GND;
+
+-- Node name is 'tout7' from file "computer.edf" line 485
+-- Equation name is 'tout7', type is output 
+tout7    =  GND;
+
+-- Node name is 'tout8' from file "computer.edf" line 485
+-- Equation name is 'tout8', type is output 
+tout8    =  GND;
+
+-- Node name is 'tout9' from file "computer.edf" line 485
+-- Equation name is 'tout9', type is output 
+tout9    =  GND;
+
+-- Node name is 'tout10' from file "computer.edf" line 485
+-- Equation name is 'tout10', type is output 
+tout10   =  GND;
+
+-- Node name is 'tout11' from file "computer.edf" line 485
+-- Equation name is 'tout11', type is output 
+tout11   =  GND;
+
+-- Node name is 'tout12' from file "computer.edf" line 485
+-- Equation name is 'tout12', type is output 
+tout12   =  GND;
+
+-- Node name is 'tout13' from file "computer.edf" line 485
+-- Equation name is 'tout13', type is output 
+tout13   =  GND;
+
+-- Node name is 'tout14' from file "computer.edf" line 485
+-- Equation name is 'tout14', type is output 
+tout14   =  GND;
+
+-- Node name is 'tout15' from file "computer.edf" line 485
+-- Equation name is 'tout15', type is output 
+tout15   =  GND;
+
+-- Node name is 'tr_ldo' from file "computer.edf" line 493
+-- Equation name is 'tr_ldo', type is output 
+tr_ldo   =  GND;
+
+
+
+Project Information                                       e:\work\computer.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = WYSIWYG
+
+      Logic option settings in 'WYSIWYG' style for 'FLEX10KE' family
+
+      CARRY_CHAIN                         = manual
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = manual
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = off
+      DUPLICATE_LOGIC_EXTRACTION          = off
+      MINIMIZATION                        = part
+      MULTI_LEVEL_FACTORING               = off
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = off
+      REFACTORIZATION                     = off
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = off
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = off
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Use Quartus Fitter                        = on
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:01
+   Partitioner                            00:00:01
+   Fitter                                 00:00:06
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:01
+   --------------------------             --------
+   Total Time                             00:00:09
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 20,727K

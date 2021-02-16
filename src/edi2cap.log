@@ -1,0 +1,93 @@
+
+EDIF to OrCAD Capture Schematic Conversion Program, Version 2.4 Built With EDI V2.48
+ (C) Copyright 1996-1999 - Engineering DataXpress, Inc., All rights reserved.
+
+ Started Thu Jul 03 23:13:49 2003
+
+Reading file E:\work\computer.edf
+
+			(timestamp Jul 03 22 21 24 2003)
+--------------^
+L7/C15 - ERROR - Unexpected EDIF Identifier = Jul
+        Ignored.
+
+			(timestamp Jul 03 22 21 24 2003)
+----------------------------------^
+L7/C35 - ERROR - Unexpected Form End = )
+        Ignored.
+
+			(program "MAX+PLUS II Advanced Synthesis" (version "1.0"))
+----^
+L8/C5 - ERROR - Unexpected EDIF Keyword = program
+        All EDIF removed to the matching ")".
+
+			(program "MAX+PLUS II Advanced Synthesis" (version "1.0"))
+------------------------------------------------------------^
+L8/C61 - WARNING - Skipping Form End = )
+
+			(author "Altera Corporation")))
+----^
+L9/C5 - ERROR - Unexpected EDIF Keyword = author
+        All EDIF removed to the matching ")".
+
+			(author "Altera Corporation")))
+-------------------------------^
+L9/C32 - WARNING - Skipping Form End = )
+
+			(author "Altera Corporation")))
+--------------------------------^
+L9/C33 - ERROR - Unexpected Form End = )
+        Ignored.
+
+			(author "Altera Corporation")))
+---------------------------------^
+L9/C34 - ERROR - Unexpected Form End = )
+        Ignored.
+
+	(library ALTERA
+--^
+L10/C3 - ERROR - Unexpected EDIF Keyword = library
+        All EDIF removed to the matching ")".
+
+	)
+-^
+L471/C2 - WARNING - Skipping Form End = )
+
+	(library MEGA
+--^
+L472/C3 - ERROR - Unexpected EDIF Keyword = library
+        All EDIF removed to the matching ")".
+
+	)
+-^
+L475/C2 - WARNING - Skipping Form End = )
+
+	(library work
+--^
+L476/C3 - ERROR - Unexpected EDIF Keyword = library
+        All EDIF removed to the matching ")".
+
+	)
+-^
+L555/C2 - WARNING - Skipping Form End = )
+
+	(design computer (cellRef computer (libraryRef work )))
+--^
+L556/C3 - ERROR - Unexpected EDIF Keyword = design
+        All EDIF removed to the matching ")".
+
+	(design computer (cellRef computer (libraryRef work )))
+-------------------------------------------------------^
+L556/C56 - WARNING - Skipping Form End = )
+
+)
+^
+L557/C1 - ERROR - Unexpected Form End = )
+        Ignored.
+
+)
+---^
+L557/C4 - ERROR - Unexpected End of File = 
+        Ignored.
+*** EDIF Reader or Semantic Checker Errors/Warnings = 12/6
+ERROR: Unable to access EDIF data in E:\work\computer.edf

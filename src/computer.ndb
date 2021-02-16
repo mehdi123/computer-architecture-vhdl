@@ -1,0 +1,72 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 60
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeE[	!	492	0	ac_ldo	"H
+#	"<R?c	!	484	0	acout0	!	acout0	".
+$	"<R?c	!	484	0	acout1	!	acout1	"-
+%	"<R?c	!	484	0	acout10	!	acout10	"$
+&	"<R?c	!	484	0	acout11	!	acout11	"#
+'	"<R?c	!	484	0	acout12	!	acout12	""
+(	"<R?c	!	484	0	acout13	!	acout13	"!
+)	"<R?c	!	484	0	acout14	!	acout14	~
+*	"<R?c	!	484	0	acout15	!	acout15	}
++	"<R?c	!	484	0	acout2	!	acout2	",
+,	"<R?c	!	484	0	acout3	!	acout3	"+
+-	"<R?c	!	484	0	acout4	!	acout4	"*
+.	"<R?c	!	484	0	acout5	!	acout5	")
+/	"<R?c	!	484	0	acout6	!	acout6	"(
+0	"<R?c	!	484	0	acout7	!	acout7	"'
+1	"<R?c	!	484	0	acout8	!	acout8	"&
+2	"<R?c	!	484	0	acout9	!	acout9	"%
+3	IeE[	!	489	0	ar_ldo	"E
+4	IeEZ	!	487	0	clock	"C
+5	"<R?c	!	486	0	cnt_out0	!	cnt_out0	"B
+6	"<R?c	!	486	0	cnt_out1	!	cnt_out1	"A
+7	"<R?c	!	486	0	cnt_out2	!	cnt_out2	"@
+8	"<R?c	!	486	0	cnt_out3	!	cnt_out3	"?
+9	IeE[	!	491	0	dr_ldo	"G
+:	IeE[	!	488	0	E	"D
+;	"<R?b	!	482	0	inpr0	!	inpr0	t
+<	"<R?b	!	482	0	inpr1	!	inpr1	s
+=	"<R?b	!	482	0	inpr2	!	inpr2	r
+>	"<R?b	!	482	0	inpr3	!	inpr3	q
+?	"<R?b	!	482	0	inpr4	!	inpr4	p
+@	"<R?b	!	482	0	inpr5	!	inpr5	o
+A	"<R?b	!	482	0	inpr6	!	inpr6	n
+B	"<R?b	!	482	0	inpr7	!	inpr7	m
+C	IeE[	!	494	0	ir_ldo	"J
+D	"<R?c	!	483	0	outr0	!	outr0	|
+E	"<R?c	!	483	0	outr1	!	outr1	{
+F	"<R?c	!	483	0	outr2	!	outr2	z
+G	"<R?c	!	483	0	outr3	!	outr3	y
+H	"<R?c	!	483	0	outr4	!	outr4	x
+I	"<R?c	!	483	0	outr5	!	outr5	w
+J	"<R?c	!	483	0	outr6	!	outr6	v
+K	"<R?c	!	483	0	outr7	!	outr7	u
+L	IeE[	!	490	0	pc_ldo	"F
+M	"<R?c	!	485	0	tout0	!	tout0	">
+N	"<R?c	!	485	0	tout1	!	tout1	"=
+O	"<R?c	!	485	0	tout10	!	tout10	"4
+P	"<R?c	!	485	0	tout11	!	tout11	"3
+Q	"<R?c	!	485	0	tout12	!	tout12	"2
+R	"<R?c	!	485	0	tout13	!	tout13	"1
+S	"<R?c	!	485	0	tout14	!	tout14	"0
+T	"<R?c	!	485	0	tout15	!	tout15	"/
+U	"<R?c	!	485	0	tout2	!	tout2	"<
+V	"<R?c	!	485	0	tout3	!	tout3	";
+W	"<R?c	!	485	0	tout4	!	tout4	":
+X	"<R?c	!	485	0	tout5	!	tout5	"9
+Y	"<R?c	!	485	0	tout6	!	tout6	"8
+Z	"<R?c	!	485	0	tout7	!	tout7	"7
+[	"<R?c	!	485	0	tout8	!	tout8	"6
+\	"<R?c	!	485	0	tout9	!	tout9	"5
+]	IeE[	!	493	0	tr_ldo	"I
